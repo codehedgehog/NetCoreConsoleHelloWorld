@@ -31,6 +31,8 @@ namespace NetCoreConsoleHelloWorld
 													$"{(input.StartsWithUpper() ? "Yes" : "No")}\n");
 			} while (true);
 
+			Console.WriteLine($"The answer is {new Thing().Get(42)}.");
+			Console.ReadLine();
 		}
 	}
 }
